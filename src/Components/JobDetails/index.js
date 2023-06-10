@@ -241,12 +241,12 @@ class JobDetails extends Component {
 
   render() {
     return (
-      <>
+      <div className="job-details">
         <Header />
         <div className="job-details-card-container">
           {this.renderJobDetails()}
         </div>
-      </>
+      </div>
     )
   }
 }

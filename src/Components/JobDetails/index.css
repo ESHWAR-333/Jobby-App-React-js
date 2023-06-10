@@ -123,6 +123,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .job-details {
+    margin: 0px;
+  }
   .loader-container {
     display: flex;
     justify-content: center;
@@ -189,7 +192,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 440px;
+    width: 300px;
     display: flex;
   }
   .skills-heading {
@@ -198,7 +201,7 @@
   .skills-sub-container {
     display: flex;
     align-items: center;
-    width: 160px;
+    width: 140px;
     margin-bottom: 20px;
     margin-top: 10px;
   }
@@ -221,7 +224,7 @@
   .life-at-company-description {
     font-size: 17px;
     min-width: 250px;
-    max-width: 350px;
+    max-width: 300px;
     line-height: 1.5;
   }
   .life-at-company-heading {
@@ -230,7 +233,7 @@
   }
   .life-at-company-image {
     min-width: 250px;
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 3px;
   }
   .similar-job-text {
